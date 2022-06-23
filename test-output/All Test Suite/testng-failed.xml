@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/USER/IdeaProjects/TestNGProject(failed)">
+    <classes>
+      <class name="main.java.com.TestNGTesting">
+        <methods>
+          <include name="testDiv"/>
+          <include name="testMul"/>
+        </methods>
+      </class> <!-- com.TestNGTesting -->
+    </classes>
+  </test> <!-- C:/Users/USER/IdeaProjects/TestNGProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

@@ -25,7 +25,7 @@ public class TestNGTesting {
 
     }
 
-    @Ignore
+    @Test(priority = 2)
     public void testMul()
     {
         int ans = ts.Multiplication(6,5);
@@ -33,7 +33,7 @@ public class TestNGTesting {
 
     }
 
-    @Ignore
+    @Test(priority = 1)
     public void testDiv()
     {
         int ans = ts.Division(6,3);
